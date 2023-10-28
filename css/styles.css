@@ -55,6 +55,7 @@ img {
 .nav-list {
     display: flex;
     justify-content: space-around;
+    gap: 99px;
 }
 .nav-link {
     color: #7d7d7d;
@@ -68,6 +69,20 @@ img {
 }
 .main-content {
     padding-bottom: 66px;
+}
+.main-content-list {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.main-content-item {
+    width: 420px;
+}
+.main-content-item:nth-child(odd) {
+    margin-right: 65px;
+}
+.main-content-item:nth-child(n+5) {
+    margin-bottom: 0px;
 }
 .main-content-subtitle {
     color: var(--add-color, gray);
