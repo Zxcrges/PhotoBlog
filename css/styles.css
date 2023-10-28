@@ -73,16 +73,16 @@ img {
 .main-content-list {
     display: flex;
     flex-wrap: wrap;
-    
 }
 .main-content-item {
     width: 420px;
+    margin-bottom: 130px;
+}
+.main-content-item:nth-child(n+5) {
+    margin-bottom: 0;
 }
 .main-content-item:nth-child(odd) {
     margin-right: 65px;
-}
-.main-content-item:nth-child(n+5) {
-    margin-bottom: 0px;
 }
 .main-content-subtitle {
     color: var(--add-color, gray);
@@ -103,6 +103,10 @@ img {
     color: var(--main-color);
     font-family: inherit;
     font-size: 14px;
+    margin-top: 90px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 .main-content-btn:hover,
 .main-content-btn:focus {
