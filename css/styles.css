@@ -54,7 +54,7 @@ img {
 }
 .nav-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: 99px;
 }
 .nav-link {
@@ -84,16 +84,21 @@ img {
 .main-content-item:nth-child(odd) {
     margin-right: 65px;
 }
+.main-content-img {
+    margin-bottom: 62px;
+}
 .main-content-subtitle {
     color: var(--add-color, gray);
     font-family: Ubuntu;
     font-size: 14px;
     text-transform: uppercase;
+    margin-bottom: 32px;
 }
 .main-content-item-title {
     color: var(--main-color);
     font-size: 30px;
     font-weight: 400;
+    margin-bottom: 40px;
 }
 .main-content-item-text {
     color: var(--main-color);
