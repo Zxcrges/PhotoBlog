@@ -96,11 +96,13 @@ img {
     font-family: Ubuntu;
     font-size: 14px;
     text-transform: uppercase;
+    margin-bottom: 32px;
 }
 .main-content-item-title {
     color: var(--main-color);
     font-size: 30px;
     font-weight: 400;
+    margin-bottom: 40px;
 }
 .main-content-item-text {
     color: var(--main-color);
