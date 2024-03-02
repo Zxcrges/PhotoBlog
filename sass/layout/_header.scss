@@ -1,0 +1,20 @@
+.header {
+    padding-top: 71px;
+    padding-bottom: 92px;
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 99px;
+}
+.nav-link {
+    color: #7d7d7d;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 250ms ease-in;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}

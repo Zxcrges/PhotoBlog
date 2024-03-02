@@ -1,0 +1,147 @@
+:root {
+  --accent-color: #03A9F4;
+  --main-color: #626262;
+  --add-color: #B4AD9E;
+}
+
+body {
+  font-family: Playfair Display;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 936px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  padding-top: 71px;
+  padding-bottom: 92px;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 99px;
+}
+
+.nav-link {
+  color: #7d7d7d;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: color 250ms ease-in;
+  transition: color 250ms ease-in;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.main-content {
+  padding-bottom: 66px;
+}
+
+.main-content-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 65px;
+     -moz-column-gap: 65px;
+          column-gap: 65px;
+  row-gap: 130px;
+}
+
+.main-content-item {
+  width: 420px;
+}
+
+.main-content-subtitle {
+  color: var(--add-color, gray);
+  font-family: Ubuntu;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.main-content-item-title {
+  color: var(--main-color);
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.main-content-item-text {
+  color: var(--main-color);
+  font-size: 14px;
+}
+
+.main-content-btn {
+  color: var(--main-color);
+  font-family: inherit;
+  font-size: 14px;
+  margin-top: 90px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-transition: background-color 250ms ease-in, color 250ms ease-in;
+  transition: background-color 250ms ease-in, color 250ms ease-in;
+}
+
+.main-content-btn:hover,
+.main-content-btn:focus {
+  background-color: var(--accent-color);
+  color: white;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
